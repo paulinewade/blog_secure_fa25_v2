@@ -1,11 +1,8 @@
 Inspecting 74 files
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCWWWWWWWWCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 Offenses:
 
-Gemfile:1:1: C: Layout/EndOfLine: Carriage return character detected.
-source "https://rubygems.org" ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Gemfile:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 source "https://rubygems.org"
 ^
@@ -13,114 +10,114 @@ Gemfile:1:8: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings
 source "https://rubygems.org"
        ^^^^^^^^^^^^^^^^^^^^^^
 Gemfile:4:6: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
-ruby "3.1.2"
+ruby "3.4.5"
      ^^^^^^^
 Gemfile:5:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
 #ruby "2.7.2"
 ^^^^^^^^^^^^^
-Gemfile:8:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
-gem "rails", "~> 7.0.3"
-    ^^^^^^^
-Gemfile:8:14: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
-gem "rails", "~> 7.0.3"
-             ^^^^^^^^^^
-Gemfile:9:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
-#gem "rails", "~> 6.1.2"
-^^^^^^^^^^^^^^^^^^^^^^^^
-Gemfile:12:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+Gemfile:19:1: C: [Correctable] Layout/EmptyLines: Extra blank line detected.
+Gemfile:21:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 gem "sprockets-rails"
     ^^^^^^^^^^^^^^^^^
-Gemfile:15:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
-gem "pg", "~> 1.1"
-    ^^^^
-Gemfile:15:11: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
-gem "pg", "~> 1.1"
-          ^^^^^^^^
-Gemfile:16:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
-#gem "pg", "~> 12.5"
-^^^^^^^^^^^^^^^^^^^^
-Gemfile:19:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
+Gemfile:23:1: C: [Correctable] Layout/EmptyLines: Extra blank line detected.
+Gemfile:25:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
 #gem 'sass-rails', '>= 6'
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-Gemfile:22:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
+Gemfile:28:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
 #gem 'webpacker'
 ^^^^^^^^^^^^^^^^
-Gemfile:23:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
+Gemfile:29:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
 #gem 'webpacker', '~> 5.0'
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-Gemfile:26:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
+Gemfile:32:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
 #gem 'turbolinks', '~> 5'
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-Gemfile:29:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
-gem "puma", "~> 5.0"
-    ^^^^^^
-Gemfile:29:13: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
-gem "puma", "~> 5.0"
-            ^^^^^^^^
-Gemfile:32:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+Gemfile:34:1: C: [Correctable] Layout/EmptyLines: Extra blank line detected.
+Gemfile:36:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 gem "importmap-rails"
     ^^^^^^^^^^^^^^^^^
-Gemfile:35:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+Gemfile:39:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 gem "turbo-rails"
     ^^^^^^^^^^^^^
-Gemfile:38:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+Gemfile:42:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 gem "stimulus-rails"
     ^^^^^^^^^^^^^^^^
-Gemfile:41:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+Gemfile:45:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 gem "jbuilder"
     ^^^^^^^^^^
-Gemfile:52:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
+Gemfile:56:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
 #gem 'record_tag_helper'
 ^^^^^^^^^^^^^^^^^^^^^^^^
-Gemfile:55:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+Gemfile:59:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
     ^^^^^^^^^^^^^
-Gemfile:58:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
+Gemfile:62:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
 #gem "bootsnap", '>=1.4.4', require: false
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Gemfile:63:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+Gemfile:67:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 gem "sassc-rails"
     ^^^^^^^^^^^^^
-Gemfile:70:7: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+Gemfile:74:7: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
   gem "debug", platforms: %i[mri mingw x64_mingw]
       ^^^^^^^
-Gemfile:71:1: C: [Correctable] Layout/CommentIndentation: Incorrect indentation detected (column 0 instead of 2).
+Gemfile:75:1: C: [Correctable] Layout/CommentIndentation: Incorrect indentation detected (column 0 instead of 2).
 #  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw ]
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Gemfile:73:1: C: [Correctable] Layout/EmptyLinesAroundBlockBody: Extra empty line detected at block body end.
-Gemfile:78:7: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+Gemfile:77:1: C: [Correctable] Layout/EmptyLinesAroundBlockBody: Extra empty line detected at block body end.
+Gemfile:82:7: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
   gem "web-console"
       ^^^^^^^^^^^^^
-Gemfile:89:7: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+Gemfile:93:7: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
   gem "capybara"
       ^^^^^^^^^^
-Gemfile:90:7: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+Gemfile:94:7: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
   gem "selenium-webdriver"
       ^^^^^^^^^^^^^^^^^^^^
-Gemfile:92:7: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+Gemfile:96:7: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
   gem "webdrivers"
       ^^^^^^^^^^^^
-Gemfile:105:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
+Gemfile:108:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
+#gem 'omniauth'
+^^^^^^^^^^^^^^^
+Gemfile:109:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
 #gem 'omniauth', '~>2.0'
 ^^^^^^^^^^^^^^^^^^^^^^^^
-Rakefile:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# Add your own tasks in files placed in lib/tasks ending in .rake, ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Gemfile:110:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
+#gem 'omniauth-google-oauth2', '>= 1.0.0'
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Gemfile:111:1: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
+#gem 'omniauth-rails_csrf_protection'
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Gemfile:112:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+gem "omniauth", "~> 2.1"
+    ^^^^^^^^^^
+Gemfile:112:17: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+gem "omniauth", "~> 2.1"
+                ^^^^^^^^
+Gemfile:113:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+gem "omniauth-rails_csrf_protection", "~> 1.0"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Gemfile:113:39: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+gem "omniauth-rails_csrf_protection", "~> 1.0"
+                                      ^^^^^^^^
+Gemfile:114:1: C: [Correctable] Bundler/OrderedGems: Gems should be sorted in an alphabetical order within their section of the Gemfile. Gem omniauth-google-oauth2 should appear before omniauth-rails_csrf_protection.
+gem "omniauth-google-oauth2", "~> 1.1"
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Gemfile:114:5: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+gem "omniauth-google-oauth2", "~> 1.1"
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+Gemfile:114:31: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+gem "omniauth-google-oauth2", "~> 1.1"
+                              ^^^^^^^^
 Rakefile:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # Add your own tasks in files placed in lib/tasks ending in .rake,
 ^
 Rakefile:4:18: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 require_relative "config/application"
                  ^^^^^^^^^^^^^^^^^^^^
-app/channels/application_cable/channel.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-module ApplicationCable ...
-^^^^^^^^^^^^^^^^^^^^^^^
 app/channels/application_cable/channel.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 module ApplicationCable
 ^
-app/channels/application_cable/connection.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-module ApplicationCable ...
-^^^^^^^^^^^^^^^^^^^^^^^
 app/channels/application_cable/connection.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 module ApplicationCable
 ^
@@ -145,18 +142,12 @@ class Admins::SessionsController < Devise::SessionsController
 app/controllers/admins/sessions_controller.rb:1:7: C: [Correctable] Style/ClassAndModuleChildren: Use nested module/class definitions instead of compact style.
 class Admins::SessionsController < Devise::SessionsController
       ^^^^^^^^^^^^^^^^^^^^^^^^^^
-app/controllers/application_controller.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class ApplicationController < ActionController::Base ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/controllers/application_controller.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class ApplicationController.
 class ApplicationController < ActionController::Base
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/controllers/application_controller.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 class ApplicationController < ActionController::Base
 ^
-app/controllers/comments_controller.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class CommentsController < ApplicationController ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/controllers/comments_controller.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class CommentsController.
 class CommentsController < ApplicationController
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -202,9 +193,6 @@ app/controllers/comments_controller.rb:67:1: C: [Correctable] Layout/Indentation
 app/controllers/comments_controller.rb:67:5: C: [Correctable] Layout/IndentationConsistency: Inconsistent indentation detected.
     def comment_params ...
     ^^^^^^^^^^^^^^^^^^
-app/controllers/posts_controller.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class PostsController < ApplicationController ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/controllers/posts_controller.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class PostsController.
 class PostsController < ApplicationController
 ^^^^^^^^^^^^^^^^^^^^^
@@ -227,6 +215,7 @@ app/controllers/posts_controller.rb:12:62: C: [Correctable] Layout/SpaceAroundOp
     @posts.count > 0 ? @nummessage=@posts.count : @nummessage=0
                                                              ^
 app/controllers/posts_controller.rb:13:1: C: [Correctable] Layout/EmptyLinesAroundMethodBody: Extra empty line detected at method body end.
+app/controllers/posts_controller.rb:16:1: C: [Correctable] Layout/EmptyLines: Extra blank line detected.
 app/controllers/posts_controller.rb:19:1: C: [Correctable] Layout/CommentIndentation: Incorrect indentation detected (column 0 instead of 2).
 #    @unreviewed_posts = Post.where('last_reviewed_at IS NULL OR last_reviewed_at > ?', Time.now)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -260,9 +249,6 @@ app/controllers/posts_controller.rb:78:1: C: [Correctable] Layout/IndentationWid
 app/controllers/posts_controller.rb:78:5: C: [Correctable] Layout/IndentationConsistency: Inconsistent indentation detected.
     def post_params ...
     ^^^^^^^^^^^^^^^
-app/controllers/users_controller.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class UsersController < ApplicationController ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/controllers/users_controller.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class UsersController.
 class UsersController < ApplicationController
 ^^^^^^^^^^^^^^^^^^^^^
@@ -299,51 +285,33 @@ app/controllers/users_controller.rb:66:1: C: [Correctable] Layout/IndentationWid
 app/controllers/users_controller.rb:66:5: C: [Correctable] Layout/IndentationConsistency: Inconsistent indentation detected.
     def user_params ...
     ^^^^^^^^^^^^^^^
-app/helpers/application_helper.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-module ApplicationHelper ...
-^^^^^^^^^^^^^^^^^^^^^^^^
 app/helpers/application_helper.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for module ApplicationHelper.
 module ApplicationHelper
 ^^^^^^^^^^^^^^^^^^^^^^^^
 app/helpers/application_helper.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 module ApplicationHelper
 ^
-app/helpers/comments_helper.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-module CommentsHelper ...
-^^^^^^^^^^^^^^^^^^^^^
 app/helpers/comments_helper.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for module CommentsHelper.
 module CommentsHelper
 ^^^^^^^^^^^^^^^^^^^^^
 app/helpers/comments_helper.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 module CommentsHelper
 ^
-app/helpers/posts_helper.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-module PostsHelper ...
-^^^^^^^^^^^^^^^^^^
 app/helpers/posts_helper.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for module PostsHelper.
 module PostsHelper
 ^^^^^^^^^^^^^^^^^^
 app/helpers/posts_helper.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 module PostsHelper
 ^
-app/helpers/users_helper.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-module UsersHelper ...
-^^^^^^^^^^^^^^^^^^
 app/helpers/users_helper.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for module UsersHelper.
 module UsersHelper
 ^^^^^^^^^^^^^^^^^^
 app/helpers/users_helper.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 module UsersHelper
 ^
-app/jobs/application_job.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class ApplicationJob < ActiveJob::Base ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/jobs/application_job.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 class ApplicationJob < ActiveJob::Base
 ^
-app/mailers/application_mailer.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class ApplicationMailer < ActionMailer::Base ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/mailers/application_mailer.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class ApplicationMailer.
 class ApplicationMailer < ActionMailer::Base
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -356,30 +324,12 @@ class Admin < ApplicationRecord
 app/models/admin.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 class Admin < ApplicationRecord
 ^
-app/models/admin.rb:7:22: C: [Correctable] Style/HashSyntax: Omit the hash value.
-    create_with(uid: uid, full_name: full_name, avatar_url: avatar_url).find_or_create_by!(email: email)
-                     ^^^
-app/models/admin.rb:7:38: C: [Correctable] Style/HashSyntax: Omit the hash value.
-    create_with(uid: uid, full_name: full_name, avatar_url: avatar_url).find_or_create_by!(email: email)
-                                     ^^^^^^^^^
-app/models/admin.rb:7:61: C: [Correctable] Style/HashSyntax: Omit the hash value.
-    create_with(uid: uid, full_name: full_name, avatar_url: avatar_url).find_or_create_by!(email: email)
-                                                            ^^^^^^^^^^
-app/models/admin.rb:7:99: C: [Correctable] Style/HashSyntax: Omit the hash value.
-    create_with(uid: uid, full_name: full_name, avatar_url: avatar_url).find_or_create_by!(email: email)
-                                                                                                  ^^^^^
-app/models/application_record.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class ApplicationRecord < ActiveRecord::Base ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/models/application_record.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class ApplicationRecord.
 class ApplicationRecord < ActiveRecord::Base
 ^^^^^^^^^^^^^^^^^^^^^^^
 app/models/application_record.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 class ApplicationRecord < ActiveRecord::Base
 ^
-app/models/comment.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class Comment < ApplicationRecord ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/models/comment.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class Comment.
 class Comment < ApplicationRecord
 ^^^^^^^^^^^^^
@@ -389,9 +339,6 @@ class Comment < ApplicationRecord
 app/models/comment.rb:3:1: C: [Correctable] Layout/CommentIndentation: Incorrect indentation detected (column 0 instead of 2).
 #  belongs_to :user
 ^^^^^^^^^^^^^^^^^^^
-app/models/post.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class Post < ApplicationRecord ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/models/post.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class Post.
 class Post < ApplicationRecord
 ^^^^^^^^^^
@@ -401,9 +348,6 @@ class Post < ApplicationRecord
 app/models/post.rb:9:1: C: [Correctable] Layout/CommentIndentation: Incorrect indentation detected (column 0 instead of 2).
 #  belongs_to :user
 ^^^^^^^^^^^^^^^^^^^
-app/models/user.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class User < ApplicationRecord ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/models/user.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class User.
 class User < ApplicationRecord
 ^^^^^^^^^^
@@ -419,78 +363,54 @@ validates_presence_of :first_name
 app/models/user.rb:7:1: C: [Correctable] Layout/IndentationWidth: Use 2 (not 0) spaces for indentation.
 validates_presence_of :last_name
 
-app/views/comments/_comment.json.jbuilder:1:1: C: Layout/EndOfLine: Carriage return character detected.
-json.extract! comment, :id, :post_id, :body, :created_at, :updated_at ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/views/comments/_comment.json.jbuilder:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 json.extract! comment, :id, :post_id, :body, :created_at, :updated_at
 ^
-app/views/comments/index.json.jbuilder:1:1: C: Layout/EndOfLine: Carriage return character detected.
-json.array! @comments, partial: "comments/comment", as: :comment ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/views/comments/index.json.jbuilder:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 json.array! @comments, partial: "comments/comment", as: :comment
 ^
 app/views/comments/index.json.jbuilder:1:33: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 json.array! @comments, partial: "comments/comment", as: :comment
                                 ^^^^^^^^^^^^^^^^^^
-app/views/comments/show.json.jbuilder:1:1: C: Layout/EndOfLine: Carriage return character detected.
-json.partial! "comments/comment", comment: @comment ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/views/comments/show.json.jbuilder:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 json.partial! "comments/comment", comment: @comment
 ^
 app/views/comments/show.json.jbuilder:1:15: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 json.partial! "comments/comment", comment: @comment
               ^^^^^^^^^^^^^^^^^^
-app/views/posts/_post.json.jbuilder:1:1: C: Layout/EndOfLine: Carriage return character detected.
-json.extract! post, :id, :title, :body, :created_at, :updated_at ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/views/posts/_post.json.jbuilder:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 json.extract! post, :id, :title, :body, :created_at, :updated_at
 ^
-app/views/posts/index.json.jbuilder:1:1: C: Layout/EndOfLine: Carriage return character detected.
-json.array! @posts, partial: "posts/post", as: :post ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/views/posts/index.json.jbuilder:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 json.array! @posts, partial: "posts/post", as: :post
 ^
 app/views/posts/index.json.jbuilder:1:30: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 json.array! @posts, partial: "posts/post", as: :post
                              ^^^^^^^^^^^^
-app/views/posts/show.json.jbuilder:1:1: C: Layout/EndOfLine: Carriage return character detected.
-json.partial! "posts/post", post: @post ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/views/posts/show.json.jbuilder:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 json.partial! "posts/post", post: @post
 ^
 app/views/posts/show.json.jbuilder:1:15: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 json.partial! "posts/post", post: @post
               ^^^^^^^^^^^^
-app/views/users/_user.json.jbuilder:1:1: C: Layout/EndOfLine: Carriage return character detected.
-json.extract! user, :id, :first_name, :last_name, :created_at, :updated_at ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/views/users/_user.json.jbuilder:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 json.extract! user, :id, :first_name, :last_name, :created_at, :updated_at
 ^
-app/views/users/index.json.jbuilder:1:1: C: Layout/EndOfLine: Carriage return character detected.
-json.array! @users, partial: "users/user", as: :user ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/views/users/index.json.jbuilder:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 json.array! @users, partial: "users/user", as: :user
 ^
 app/views/users/index.json.jbuilder:1:30: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 json.array! @users, partial: "users/user", as: :user
                              ^^^^^^^^^^^^
-app/views/users/show.json.jbuilder:1:1: C: Layout/EndOfLine: Carriage return character detected.
-json.partial! "users/user", user: @user ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 app/views/users/show.json.jbuilder:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 json.partial! "users/user", user: @user
 ^
 app/views/users/show.json.jbuilder:1:15: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 json.partial! "users/user", user: @user
               ^^^^^^^^^^^^
+bin/bundle:1:1: W: Lint/ScriptPermission: Script file bundle doesn't have execute permission.
+#!/usr/bin/env ruby
+^^^^^^^^^^^^^^^^^^^
 bin/bundle:11:9: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 require "rubygems"
         ^^^^^^^^^^
@@ -572,9 +492,6 @@ bin/bundle:97:5: C: [Correctable] Layout/EmptyLineAfterGuardClause: Add empty li
 bin/bundle:97:12: C: [Correctable] Style/IfUnlessModifier: Modifier form of if makes the line too long.
     return if require_error.nil? && Gem::Requirement.new(bundler_requirement).satisfied_by?(Gem::Version.new(Bundler::VERSION))
            ^^
-bin/bundle:97:121: C: Layout/LineLength: Line is too long. [127/120]
-    return if require_error.nil? && Gem::Requirement.new(bundler_requirement).satisfied_by?(Gem::Version.new(Bundler::VERSION))
-                                                                                                                        ^^^^^^^
 bin/bundle:98:121: C: Layout/LineLength: Line is too long. [198/120]
     warn "Activating bundler (#{bundler_requirement}) failed:\n#{gem_error.message}\n\nTo install the version of bundler this project requires, run `gem install bundler -v '#{bundler_requirement}'`"
                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -587,6 +504,9 @@ bin/bundle:113:21: C: [Correctable] Style/StringLiterals: Prefer single-quoted s
 bin/bundle:113:32: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
   load Gem.bin_path("bundler", "bundle")
                                ^^^^^^^^
+bin/rails:1:1: W: Lint/ScriptPermission: Script file rails doesn't have execute permission.
+#!/usr/bin/env ruby
+^^^^^^^^^^^^^^^^^^^
 bin/rails:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 #!/usr/bin/env ruby
 ^
@@ -599,6 +519,9 @@ require_relative "../config/boot"
 bin/rails:4:9: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 require "rails/commands"
         ^^^^^^^^^^^^^^^^
+bin/rake:1:1: W: Lint/ScriptPermission: Script file rake doesn't have execute permission.
+#!/usr/bin/env ruby
+^^^^^^^^^^^^^^^^^^^
 bin/rake:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 #!/usr/bin/env ruby
 ^
@@ -608,6 +531,9 @@ require_relative "../config/boot"
 bin/rake:3:9: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 require "rake"
         ^^^^^^
+bin/setup:1:1: W: Lint/ScriptPermission: Script file setup doesn't have execute permission.
+#!/usr/bin/env ruby
+^^^^^^^^^^^^^^^^^^^
 bin/setup:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 #!/usr/bin/env ruby
 ^
@@ -638,6 +564,9 @@ bin/setup:29:11: C: [Correctable] Style/StringLiterals: Prefer single-quoted str
 bin/setup:32:11: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
   system! "bin/rails restart"
           ^^^^^^^^^^^^^^^^^^^
+bin/spring:1:1: W: Lint/ScriptPermission: Script file spring doesn't have execute permission.
+#!/usr/bin/env ruby
+^^^^^^^^^^^^^^^^^^^
 bin/spring:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 #!/usr/bin/env ruby
 ^
@@ -665,6 +594,9 @@ bin/spring:9:9: C: [Correctable] Style/StringLiterals: Prefer single-quoted stri
 bin/spring:10:13: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
     require "spring/binstub"
             ^^^^^^^^^^^^^^^^
+bin/webpack:1:1: W: Lint/ScriptPermission: Script file webpack doesn't have execute permission.
+#!/usr/bin/env ruby
+^^^^^^^^^^^^^^^^^^^
 bin/webpack:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 #!/usr/bin/env ruby
 ^
@@ -707,6 +639,9 @@ require "webpacker/webpack_runner"
 bin/webpack:15:29: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 APP_ROOT = File.expand_path("..", __dir__)
                             ^^^^
+bin/webpack-dev-server:1:1: W: Lint/ScriptPermission: Script file webpack-dev-server doesn't have execute permission.
+#!/usr/bin/env ruby
+^^^^^^^^^^^^^^^^^^^
 bin/webpack-dev-server:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 #!/usr/bin/env ruby
 ^
@@ -749,6 +684,9 @@ require "webpacker/dev_server_runner"
 bin/webpack-dev-server:15:29: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 APP_ROOT = File.expand_path("..", __dir__)
                             ^^^^
+bin/yarn:1:1: W: Lint/ScriptPermission: Script file yarn doesn't have execute permission.
+#!/usr/bin/env ruby
+^^^^^^^^^^^^^^^^^^^
 bin/yarn:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 #!/usr/bin/env ruby
 ^
@@ -803,18 +741,12 @@ bin/yarn:14:5: C: [Correctable] Style/StderrPuts: Use warn instead of $stderr.pu
 bin/yarn:14:18: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
     $stderr.puts "Download Yarn at https://yarnpkg.com/en/docs/install"
                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-config.ru:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# This file is used by Rack-based servers to start the application. ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config.ru:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # This file is used by Rack-based servers to start the application.
 ^
 config.ru:3:18: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 require_relative "config/environment"
                  ^^^^^^^^^^^^^^^^^^^^
-config/application.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-require_relative "boot" ...
-^^^^^^^^^^^^^^^^^^^^^^^
 config/application.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 require_relative "boot"
 ^
@@ -867,9 +799,6 @@ config/application.rb:39:63: C: [Correctable] Layout/TrailingWhitespace: Trailin
     config.autoload_paths += %W(#{config.root}/app/javascript)   
                                                               ^^^
 config/application.rb:40:1: C: [Correctable] Layout/EmptyLinesAroundClassBody: Extra empty line detected at class body end.
-config/boot.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../Gemfile', __dir__) ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/boot.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../Gemfile', __dir__)
 ^
@@ -879,18 +808,12 @@ require "bundler/setup" # Set up gems listed in the Gemfile.
 config/boot.rb:4:9: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 require "bootsnap/setup" # Speed up boot time by caching expensive operations.
         ^^^^^^^^^^^^^^^^
-config/environment.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# Load the Rails application. ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/environment.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # Load the Rails application.
 ^
 config/environment.rb:2:18: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 require_relative "application"
                  ^^^^^^^^^^^^^
-config/environments/development.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-require "active_support/core_ext/integer/time" ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/environments/development.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 require "active_support/core_ext/integer/time"
 ^
@@ -903,7 +826,7 @@ config/environments/development.rb:22:22: C: [Correctable] Style/StringLiterals:
 config/environments/development.rb:28:7: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
       "Cache-Control" => "public, max-age=#{2.days.to_i}"
       ^^^^^^^^^^^^^^^
-config/environments/development.rb:71:1: C: [Correctable] Layout/EmptyLinesAroundBlockBody: Extra empty line detected at block body end.
+config/environments/development.rb:70:1: C: [Correctable] Layout/TrailingWhitespace: Trailing whitespace detected.
 config/environments/production.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 require "active_support/core_ext/integer/time"
 ^
@@ -927,9 +850,6 @@ config/environments/production.rb:121:3: C: [Correctable] Layout/LeadingCommentS
   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/environments/production.rb:123:1: C: [Correctable] Layout/EmptyLines: Extra blank line detected.
 config/environments/production.rb:123:1: C: [Correctable] Layout/EmptyLinesAroundBlockBody: Extra empty line detected at block body end.
-config/environments/test.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-require "active_support/core_ext/integer/time" ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/environments/test.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 require "active_support/core_ext/integer/time"
 ^
@@ -942,36 +862,21 @@ config/environments/test.rb:9:3: C: [Correctable] Layout/CommentIndentation: Inc
 config/environments/test.rb:10:1: C: [Correctable] Layout/CommentIndentation: Incorrect indentation detected (column 0 instead of 2).
 # new line to make rspec integration work with OAuth
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-config/initializers/application_controller_renderer.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# Be sure to restart your server when you modify this file. ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/initializers/application_controller_renderer.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # Be sure to restart your server when you modify this file.
 ^
-config/initializers/assets.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# Be sure to restart your server when you modify this file. ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/initializers/assets.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # Be sure to restart your server when you modify this file.
 ^
-config/initializers/backtrace_silencers.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# Be sure to restart your server when you modify this file. ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/initializers/backtrace_silencers.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # Be sure to restart your server when you modify this file.
 ^
 config/initializers/backtrace_silencers.rb:8:50: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 Rails.backtrace_cleaner.remove_silencers! if ENV["BACKTRACE"]
                                                  ^^^^^^^^^^^
-config/initializers/content_security_policy.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# Be sure to restart your server when you modify this file. ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/initializers/content_security_policy.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # Be sure to restart your server when you modify this file.
 ^
-config/initializers/cookies_serializer.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# Be sure to restart your server when you modify this file. ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/initializers/cookies_serializer.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # Be sure to restart your server when you modify this file.
 ^
@@ -983,42 +888,24 @@ config/initializers/devise.rb:21:121: C: Layout/LineLength: Line is too long. [1
 config/initializers/devise.rb:133:121: C: Layout/LineLength: Line is too long. [150/120]
   # config.pepper = 'f800643ee08d378072cbf923796380c26b8272366b5e48856d345f4368c70e3a63ad5e90cf6c47e608475dc2c042c6cb07020bea1b03ff0c1dedcab6ef645ece'
                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-config/initializers/filter_parameter_logging.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# Be sure to restart your server when you modify this file. ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/initializers/filter_parameter_logging.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # Be sure to restart your server when you modify this file.
 ^
 config/initializers/filter_parameter_logging.rb:4:47: C: [Correctable] Style/SymbolArray: Use %i or %I for an array of symbols.
 Rails.application.config.filter_parameters += [ ...
                                               ^
-config/initializers/inflections.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# Be sure to restart your server when you modify this file. ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/initializers/inflections.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # Be sure to restart your server when you modify this file.
 ^
-config/initializers/mime_types.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# Be sure to restart your server when you modify this file. ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/initializers/mime_types.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # Be sure to restart your server when you modify this file.
 ^
-config/initializers/permissions_policy.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# Define an application-wide HTTP permissions policy. For further ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/initializers/permissions_policy.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # Define an application-wide HTTP permissions policy. For further
 ^
-config/initializers/wrap_parameters.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# Be sure to restart your server when you modify this file. ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/initializers/wrap_parameters.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # Be sure to restart your server when you modify this file.
 ^
-config/puma.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# Puma can serve each request in a thread from an internal thread pool. ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/puma.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # Puma can serve each request in a thread from an internal thread pool.
 ^
@@ -1058,9 +945,6 @@ pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
 config/puma.rb:25:32: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
                                ^^^^^^^^^^^^^^^^^^^^^
-config/routes.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-Rails.application.routes.draw do ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 config/routes.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 Rails.application.routes.draw do
 ^
@@ -1068,9 +952,6 @@ config/routes.rb:2:8: C: [Correctable] Style/StringLiterals: Prefer single-quote
   root "posts#index"
        ^^^^^^^^^^^^^
 config/routes.rb:15:1: C: [Correctable] Layout/EmptyLinesAroundBlockBody: Extra empty line detected at block body end.
-config/spring.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-Spring.watch( ...
-^^^^^^^^^^^^^
 config/spring.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 Spring.watch(
 ^
@@ -1086,36 +967,24 @@ config/spring.rb:4:3: C: [Correctable] Style/StringLiterals: Prefer single-quote
 config/spring.rb:5:3: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
   "tmp/caching-dev.txt"
   ^^^^^^^^^^^^^^^^^^^^^
-db/migrate/20210124165602_create_posts.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class CreatePosts < ActiveRecord::Migration[6.0] ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 db/migrate/20210124165602_create_posts.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class CreatePosts.
 class CreatePosts < ActiveRecord::Migration[6.0]
 ^^^^^^^^^^^^^^^^^
 db/migrate/20210124165602_create_posts.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 class CreatePosts < ActiveRecord::Migration[6.0]
 ^
-db/migrate/20210124165650_create_comments.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class CreateComments < ActiveRecord::Migration[6.0] ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 db/migrate/20210124165650_create_comments.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class CreateComments.
 class CreateComments < ActiveRecord::Migration[6.0]
 ^^^^^^^^^^^^^^^^^^^^
 db/migrate/20210124165650_create_comments.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 class CreateComments < ActiveRecord::Migration[6.0]
 ^
-db/migrate/20210125003928_create_users.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class CreateUsers < ActiveRecord::Migration[6.0] ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 db/migrate/20210125003928_create_users.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class CreateUsers.
 class CreateUsers < ActiveRecord::Migration[6.0]
 ^^^^^^^^^^^^^^^^^
 db/migrate/20210125003928_create_users.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 class CreateUsers < ActiveRecord::Migration[6.0]
 ^
-db/migrate/20210125004012_add_userid_to_posts.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class AddUseridToPosts < ActiveRecord::Migration[6.0] ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 db/migrate/20210125004012_add_userid_to_posts.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class AddUseridToPosts.
 class AddUseridToPosts < ActiveRecord::Migration[6.0]
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -1125,36 +994,24 @@ class AddUseridToPosts < ActiveRecord::Migration[6.0]
 db/migrate/20210125004012_add_userid_to_posts.rb:3:39: C: [Correctable] Layout/SpaceAfterColon: Space missing after colon.
     add_reference :posts, :user, index:true, foreign_key: true
                                       ^
-db/migrate/20210125004104_add_userid_to_comments.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class AddUseridToComments < ActiveRecord::Migration[6.0] ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 db/migrate/20210125004104_add_userid_to_comments.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class AddUseridToComments.
 class AddUseridToComments < ActiveRecord::Migration[6.0]
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 db/migrate/20210125004104_add_userid_to_comments.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 class AddUseridToComments < ActiveRecord::Migration[6.0]
 ^
-db/migrate/20210201222329_add_data_to_posts.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class AddDataToPosts < ActiveRecord::Migration[6.0] ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 db/migrate/20210201222329_add_data_to_posts.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class AddDataToPosts.
 class AddDataToPosts < ActiveRecord::Migration[6.0]
 ^^^^^^^^^^^^^^^^^^^^
 db/migrate/20210201222329_add_data_to_posts.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 class AddDataToPosts < ActiveRecord::Migration[6.0]
 ^
-db/migrate/20210209045620_add_phonenumber_to_user.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class AddPhonenumberToUser < ActiveRecord::Migration[6.0] ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 db/migrate/20210209045620_add_phonenumber_to_user.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class AddPhonenumberToUser.
 class AddPhonenumberToUser < ActiveRecord::Migration[6.0]
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 db/migrate/20210209045620_add_phonenumber_to_user.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 class AddPhonenumberToUser < ActiveRecord::Migration[6.0]
 ^
-db/migrate/20210209221138_add_areacode_to_user.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-class AddAreacodeToUser < ActiveRecord::Migration[6.0] ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 db/migrate/20210209221138_add_areacode_to_user.rb:1:1: C: Style/Documentation: Missing top-level documentation comment for class AddAreacodeToUser.
 class AddAreacodeToUser < ActiveRecord::Migration[6.0]
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -1171,14 +1028,14 @@ db/schema.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing fro
 # This file is auto-generated from the current state of the database. Instead
 ^
 db/schema.rb:13:1: C: Metrics/BlockLength: Block has too many lines. [41/25]
-ActiveRecord::Schema[7.0].define(version: 2024_02_05_002323) do ...
+ActiveRecord::Schema[8.0].define(version: 2024_02_05_002323) do ...
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 db/schema.rb:13:43: C: [Correctable] Style/NumericLiterals: Use underscores(_) as thousands separator and separate every 3 digits with them.
-ActiveRecord::Schema[7.0].define(version: 2024_02_05_002323) do
+ActiveRecord::Schema[8.0].define(version: 2024_02_05_002323) do
                                           ^^^^^^^^^^^^^^^^^
 db/schema.rb:15:20: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
-  enable_extension "plpgsql"
-                   ^^^^^^^^^
+  enable_extension "pg_catalog.plpgsql"
+                   ^^^^^^^^^^^^^^^^^^^^
 db/schema.rb:17:16: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
   create_table "admins", force: :cascade do |t|
                ^^^^^^^^
@@ -1308,19 +1165,13 @@ db/schema.rb:60:19: C: [Correctable] Style/StringLiterals: Prefer single-quoted 
 db/schema.rb:60:28: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
   add_foreign_key "posts", "users"
                            ^^^^^^^
-db/seeds.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# This file should contain all the record creation needed to seed the database with its default values. ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 db/seeds.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # This file should contain all the record creation needed to seed the database with its default values.
 ^
-spec/integration/creating_blog_posts_spec.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# require 'rails_helper' ...
-^^^^^^^^^^^^^^^^^^^^^^^^
 spec/integration/creating_blog_posts_spec.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # require 'rails_helper'
 ^
-spec/integration/creating_blog_posts_spec.rb:34:1: C: Metrics/BlockLength: Block has too many lines. [37/25]
+spec/integration/creating_blog_posts_spec.rb:34:1: C: Metrics/BlockLength: Block has too many lines. [38/25]
 RSpec.describe "CreatingBlogPosts", type: :system do ...
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 spec/integration/creating_blog_posts_spec.rb:34:16: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
@@ -1332,36 +1183,33 @@ spec/integration/creating_blog_posts_spec.rb:43:7: C: [Correctable] Layout/First
 spec/integration/creating_blog_posts_spec.rb:54:5: C: [Correctable] Layout/FirstHashElementIndentation: Indent the right brace the same as the first position after the preceding left parenthesis.
     })
     ^
-spec/integration/creating_blog_posts_spec.rb:72:31: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+spec/integration/creating_blog_posts_spec.rb:67:5: C: [Correctable] Layout/LeadingCommentSpace: Missing space after #.
+    #visit '/admins/auth/google_oauth2/callback'
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+spec/integration/creating_blog_posts_spec.rb:69:14: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+    click_on "Google"
+             ^^^^^^^^
+spec/integration/creating_blog_posts_spec.rb:73:31: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
     expect(page).to have_link("New Post", wait: 10)
                               ^^^^^^^^^^
-spec/integration/creating_blog_posts_spec.rb:73:14: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+spec/integration/creating_blog_posts_spec.rb:74:14: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
     click_on "New Post"
              ^^^^^^^^^^
-spec/integration/creating_blog_posts_spec.rb:83:23: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+spec/integration/creating_blog_posts_spec.rb:84:23: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
     post = Post.order("id").last
                       ^^^^
-spec/rails_helper.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# This file is copied to spec/ when you run 'rails generate rspec:install' ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 spec/rails_helper.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 ^
 spec/rails_helper.rb:6:7: C: [Correctable] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
 abort("The Rails environment is running in production mode!") if Rails.env.production?
       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-spec/spec_helper.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-# This file was generated by the `rails generate rspec:install` command. Conventionally, all ...
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 spec/spec_helper.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 # This file was generated by the `rails generate rspec:install` command. Conventionally, all
 ^
 spec/spec_helper.rb:49:1: C: [Correctable] Style/BlockComments: Do not use block comments.
 =begin ...
 ^^^^^^
-spec/unit/user_spec.rb:1:1: C: Layout/EndOfLine: Carriage return character detected.
-require 'rails_helper' ...
-^^^^^^^^^^^^^^^^^^^^^^
 spec/unit/user_spec.rb:1:1: C: [Correctable] Style/FrozenStringLiteralComment: Missing frozen string literal comment.
 require 'rails_helper'
 ^
@@ -1392,4 +1240,4 @@ spec/unit/user_spec.rb:16:33: C: [Correctable] Style/StringLiterals: Prefer sing
                                 ^^^^^^^^^^
 spec/unit/user_spec.rb:19:1: C: [Correctable] Layout/EmptyLinesAroundBlockBody: Extra empty line detected at block body end.
 
-74 files inspected, 470 offenses detected, 374 offenses autocorrectable
+74 files inspected, 422 offenses detected, 378 offenses autocorrectable
