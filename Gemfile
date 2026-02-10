@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+#changed to work with sp26 docker image
 ruby "3.4.6"
 
 
